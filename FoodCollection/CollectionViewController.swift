@@ -39,14 +39,14 @@ class CollectionViewController: UICollectionViewController {
    // list of the images using for loop
         for i in 1...12 {
             if i > 9 {
-                asiaDataItems.append(DataItem(title: "Title #\(i)", kind: Kind.Asian, imageName: "images/images/asianfood\(i+1).jpeg"))
+                asiaDataItems.append(DataItem(title: "Title #\(i)", kind: Kind.Asian, imageName: "images/images/asianfood\(i).jpg"))
             } else {
-                asiaDataItems.append(DataItem(title: "Title #0\(i)", kind: Kind.Asian, imageName: "images/images/asianfood0\(i+1).jpg"))
+                asiaDataItems.append(DataItem(title: "Title #0\(i)", kind: Kind.Asian, imageName: "images/images/asianfood0\(i).jpg"))
             }
         }
         for i in 1...12 {
             if i > 9 {
-                americanDataItems.append(DataItem(title: "Another Title #\(i)", kind: Kind.American, imageName: "images/images/americanfood\(i+1).jpg"))
+                americanDataItems.append(DataItem(title: "Another Title #\(i)", kind: Kind.American, imageName: "images/images/americanfood\(i).jpg"))
             } else {
                 americanDataItems.append(DataItem(title: "Another Title #0\(i)", kind: Kind.American, imageName: "images/images/americanfood0\(i).jpg"))
             }
